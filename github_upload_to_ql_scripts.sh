@@ -16,7 +16,7 @@ BRANCH="main"
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 SOURCE_DIR="/ql/data/scripts/1280"
 
-echo "全新同步版本，仅更新不删除"
+echo "全新同步版本，仅更新不删除!"
 
 
 # 自动读取青龙面板代理配置。未找到 config.sh 或 ProxyUrl 时不启用代理。
